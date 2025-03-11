@@ -20,7 +20,7 @@ class abstraction
 };
 int main()
 {
-  abstraction obj;
+  abstraction obj; //give any name to object
   obj.set(10,20);
   obj.display();
     return 0;
