@@ -6,7 +6,7 @@ class Animal
 {
     public :
     void makesound (){
-        cout<< "Dog Barks"<<endl;
+     //cout<< "Dog Barks"<<endl;
     }
 };
 class Dog : public Animal{
