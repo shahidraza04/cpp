@@ -5,20 +5,20 @@ using namespace std;
 class Car
 {
     public :
-    void enginesound (){
-
+    void enginesound(){
+    //sound of cars.
     }
 };
 
 class Sportcar : public Car{
     public : void enginesound (){
-        cout <<"vroom vroom......."<<endl;
+        cout <<"sports car : Vroom Vroom........"<<endl;
     }
 };
 
 class Electriccar{
     public : void enginesound () {
-        cout <<"silent sound..."<<endl;
+        cout <<"electric car : silent sound..."<<endl;
     }
 };
 int main(){
